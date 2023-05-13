@@ -1,0 +1,15 @@
+server:
+    port: 8085
+spring:
+    datasource:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://localhost:3306/dormitory?useUnicode=true&characterEncoding=utf-8&useSSL=false&&allowPublicKeyRetrieval=true
+        username: root
+        password: "0516"   #yml文件数据库密码读数据类型如‘00000’，会被读成‘0’
+
+mybatis-plus:
+    configuration:
+        log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    mapper-locations: com/wuti/mapper/xml/*.xml
+
+
