@@ -35,9 +35,10 @@ CREATE TABLE `absent`  (
 -- ----------------------------
 -- Records of absent
 -- ----------------------------
-INSERT INTO `absent` VALUES (13, 1, 2, 5, 16, '2022-04-16', '请假');
-INSERT INTO `absent` VALUES (14, 1, 1, 1, 1, '2022-04-26', '请假');
-INSERT INTO `absent` VALUES (15, 2, 5, 63, 1, '2022-04-26', '请假');
+INSERT INTO `absent` VALUES (1, 1, 2, 5, 1, '2022-04-16', '请假');
+INSERT INTO `absent` VALUES (2, 1, 1, 1, 1, '2022-04-26', '请假');
+INSERT INTO `absent` VALUES (3, 2, 5, 19, 2, '2022-04-26', '请假');
+INSERT INTO `absent` VALUES (4, 3, 8, 21, 3, '2022-04-26', '请假');
 
 -- ----------------------------
 -- Table structure for building
